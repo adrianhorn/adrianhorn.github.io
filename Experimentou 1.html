@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="utf-8" />
+		<title>Hola :D</title>
+		<script src="juego.js"></script>
+	</head>
+
+	<body>
+	<h1 style="color:blue">El mejor juego de la historia&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span id="tiempo"> </span> segundos jugados </h1>
+		<button onclick="nombrarse()">"nombrarse"</button>
+		<button onclick="saludar()">"saludo"</button>
+		<br><br>
+		<table id="fondo"style="border-style:solid;background-color:gold;border-color:black;border-width:15px;padding:10px">
+		<tr>
+		<td>
+		<button id='Jugar'onclick="juega()">Atacar</button>
+		</td>
+		<td>
+		<button id='curacion'style="color:green" onclick="curarse()">Curarse</button>
+		</td>
+		<td>
+		<button id='Encendiar' style="color:red" onclick="quemar()">Quemar 15 mana</button>
+		</td>
+		</tr>
+		</table>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<h1 style="color:lime" id="cantidad de vida"></h1>&nbsp;&nbsp;&nbsp;&nbsp;<h1 style="color:maroon" id="cantidad de vida del enemigo"></h1>
+		<h1 style="color:Black" id="dado"></h1>
+		<h1 style="color:Blue" id="estado"></h1>
+		<img id="flama" src="flama.gif" style="width:150px;height:100px;display:none">
+
+	</body>
+
+</html>
