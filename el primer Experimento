@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="utf-8" />
+				<script src="juego.js"></script>
+		<title>Hola :D</title>
+	</head>
+
+	<body>
+	<h1 style="color:blue">El mejor juego de la historia&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span id="tiempo"> </span> segundos jugados </h1>
+		<br><br>
+		<table id="fondo"style="border-style:solid;background-color:gold;border-color:black;border-width:15px;padding:10px">
+			<tr>
+				<td>
+					<button id='Jugar'onclick="juega()">Atacar</button>
+				</td>
+				<td>
+					<button id='curacion'style="color:green" onclick=curarse()></button>
+			</td>
+			</tr>
+		</table>
+		<h1 style="color:Blue" id="estado"></h1><br>
+		<h1 style="color:lime" id="cantidad de vida"></h1>
+		<h2 style="color:maroon" id="cantidad de vida del enemigo">&nbsp;&nbsp;''</h2>&nbsp;&nbsp;&nbsp;&nbsp;
+		<div style="position:relative;width:1000px;height:420px;border: 3px solid #73AD21;">
+  		<img id='heroe' src="yoshi-normal.png" height="260" style='position:absolute;bottom:0px;left:0px'>
+  		<img id='enemigo' src="th.jpg" height='260' style="position:absolute;bottom:0px;right:0px">
+		</div>
+	</body>
+
+</html>
