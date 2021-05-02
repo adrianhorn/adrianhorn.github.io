@@ -1,0 +1,29 @@
+<h1>Matheaufgaben für Adrian</h1>
+
+<h2>Aufgaben</h2>
+<ol>
+<li><a href="Aufgaben1.pdf" target="_blank">Aufgaben 1</a></li>
+<li><a href="Aufgaben2.pdf" target="_blank">Aufgaben 2</a></li>
+<li><a href="Aufgaben3_aufgaben.pdf" target="_blank">Aufgaben 3</a></li>
+</ol>
+
+<h2>Lösungen</h2>
+<button onclick="myFunction()">Tengo la clave secreta</button><br>
+<div id="caca" style="display:none">
+<ol>
+<li><a href="https://de.serlo.org/mathe/23869/aufgaben-zur-prozentrechnung" target="_blank">Lösung 1</a><br>
+<li><a href="https://123mathe.de/prozentrechnen-loesungen-der-aufgabenm" target="_blank">Lösung 2</a><br>
+<li><a href="Aufgaben3_loesungen.pdf" target="_blank">Lösung 3</a><br>
+</ol>
+</div>
+
+<script>
+function myFunction() {
+  var person = prompt("Contraseña secreta", "");
+  if (person == "caca") {
+    document.getElementById("caca").style.display = "block";
+  } else {
+  alert("haha, mal :-)");
+  }
+}
+</script>
